@@ -1,0 +1,33 @@
+let a=10;
+const b=22;
+var c=20; 
+console.log(a)
+console.log(b)
+console.log(c)
+// nested scope 
+
+
+function one(){
+    const username ="swat";
+    function two(){
+        const websiteName ="swat.com";
+        console.log(username);
+    }
+
+    // console.log(websiteName);
+    two()
+}
+
+one()
+
+//++++++++++++++++++++++intersting+++++++++++++
+ console.log(addOne(3))
+ function addOne(num){
+    return num+1;
+
+ }
+ 
+ const addTwo =function(num){
+    return num +1
+ }
+ console.log(addTwo(2))
