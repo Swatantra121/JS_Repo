@@ -1,0 +1,9 @@
+javaScript  exexution context
+
+1 global EC 
+2 function EC
+3 Eval EC
+
+firt phase of  exexution 
+1. memory creation phase 
+2 exexution phase
