@@ -24,3 +24,12 @@ switch(month){
             break;
 
 }
+function printNumbers(num) {
+    if (num > 10) {
+        return;
+    }
+    console.log(num);
+    printNumbers(num + 1);
+}
+
+printNumbers(1);
