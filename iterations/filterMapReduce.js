@@ -41,20 +41,24 @@ const newNum = myNum.filter((num)=> num>4)
 const shoppingCart= [
     {
         productname: "apple mobile",
-        price: 50000
+        price: 5,
+        qty: 1
 
     },
     {
         productname: "sumsung mobile",
-        price: 5000
+        price: 5,
+        qty: 2
 
     },
     {
         productname: "nokia mobile",
-        price: 10000
+        price: 1,
+        qty: 1
+
 
     }
 ] 
 
-const priceToPay = shoppingCart.reduce((acc, item)=>acc+item.price,0);
+const priceToPay = shoppingCart.reduce((acc, item)=>acc+item.price*item.qty,0);
 console.log(priceToPay);
