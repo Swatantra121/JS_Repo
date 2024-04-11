@@ -27,3 +27,23 @@ console.log(`my name is ${name} repo is ${repoCount}`);
                     });
 console.log(counts); 
 
+ let Nameof="ramname";
+ const newstring= Nameof.split('').reverse('').join('');
+ console.log(newstring)
+let n= 10 
+const number=[0,1];
+for(let i=2;i<10;i++){
+  number[i]=  number[i-1]+number[i-2];
+}
+console.log(number)
+
+// // Initialize an array to store the Fibonacci numbers
+// const fibonacci = [0, 1];
+
+// // Iterate over the array and calculate the next Fibonacci number
+// for (let i = 2; i < 10; i++) {
+//   fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+// }
+
+// // Print the Fibonacci series
+// console.log(fibonacci);
