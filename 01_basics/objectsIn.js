@@ -17,7 +17,7 @@ lastLogedIn: ["monday","tuesday"]
 }
 
 // console.log(jsUser.name);
-// console.log(jsUser["name"]);// this the right mathod to access object key
+// console.log(jsUser["name"]); // this the right mathod to access object key
 // console.log(jsUser["lastname"])
 // console.log(jsUser[mySym])
 // console.log(jsUser)
