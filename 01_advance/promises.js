@@ -83,8 +83,7 @@ async function fatchAPi(){
 }
 // fatchAPi()
 
-
-    const response = fetch('https://jsonplaceholder.typicode.com/users')
+     const response = fetch('https://jsonplaceholder.typicode.com/users')
     .then((response)=>{
        return response.json()
 
