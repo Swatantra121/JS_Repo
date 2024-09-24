@@ -101,4 +101,26 @@ console.log(`a:${a} b${b}`);
     // }
   }  
  });
+
  console.log(coun);
+
+
+
+ // 
+ let number =10;
+ let a =0, b=1, nextStep
+ let array = [];
+for(let i=2; i<number; i++ ){
+    // console.log(i)
+    
+     nextStep = a+b
+    // console.log(nextStep)
+    a=b
+    
+    // console.log(a)
+    b=nextStep
+    
+    array.push(b)
+}
+
+console.log(array.join('+'));
